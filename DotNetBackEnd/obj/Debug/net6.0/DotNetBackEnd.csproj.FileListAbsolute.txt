@@ -1,0 +1,6 @@
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.csproj.AssemblyReference.cache
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.AssemblyInfoInputs.cache
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.AssemblyInfo.cs
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Erdoğan\source\repos\DotNetBackEnd\DotNetBackEnd\obj\Debug\net6.0\DotNetBackEnd.MvcApplicationPartsAssemblyInfo.cache
