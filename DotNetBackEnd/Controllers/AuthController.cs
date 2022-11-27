@@ -18,17 +18,17 @@ namespace DotNetBackEnd.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IMapper _mapper;
-        private readonly DbContext _context;
+        private readonly CargoTrackDbContext _context;
 
         private readonly IConfiguration _configuration;
 
-        public AuthController(IConfiguration configuration, IMapper mapper, DbContext context)
+        public AuthController(IConfiguration configuration, IMapper mapper, CargoTrackDbContext context)
         {
             _mapper = mapper;
             _context = context;
             _configuration = configuration;
         }
-   
+
 
         [HttpPost("register")]
         public async Task<ActionResult<AddUserDto>> Register(AddUserDto request)

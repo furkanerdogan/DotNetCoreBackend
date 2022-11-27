@@ -2564,6 +2564,21 @@
         "runtime": {
           "bin/placeholder/Core.dll": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
       }
     }
   },
@@ -8044,6 +8059,11 @@
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8052,6 +8072,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Autofac.Extensions.DependencyInjection >= 8.0.0",
       "Core >= 1.0.0",
+      "DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.10",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
@@ -8093,6 +8114,9 @@
           "projectReferences": {
             "C:\\Users\\Furkan Erdoğan\\source\\repos\\DotNetBackEnd\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\Furkan Erdoğan\\source\\repos\\DotNetBackEnd\\Core\\Core.csproj"
+            },
+            "C:\\Users\\Furkan Erdoğan\\source\\repos\\DotNetBackEnd\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Furkan Erdoğan\\source\\repos\\DotNetBackEnd\\DataAccess\\DataAccess.csproj"
             }
           }
         }
